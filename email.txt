@@ -1,0 +1,8 @@
+Hello: ${request.requested_for.manager}, ${request.requested_for},
+
+Your request for CDMS access ${current.variables.requestType} has been denied.
+
+Thank you,
+Your ServiceNow support team
+
+This message is sent from an automated system as a courtesy notification, replies will not be responded to.

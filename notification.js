@@ -1,0 +1,1 @@
+The change requested by ${current.variables.colleague} and approved by Physical Security has been implemented.  ${current.variables.proposedDoorOwner} has replaced ${current.variables.currentOwner} as the owner of all his/her doors, and as a member of all his/her security door approval groups.  

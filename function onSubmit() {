@@ -1,0 +1,28 @@
+function onSubmit() {
+   //Type appropriate comment here, and begin script below
+    var code = g_form.getValue('description');
+	if(code.indexOf('CT1292') > -1)
+    {
+	   var val = g_form.getValue('userCode');
+	   
+		if (val == '')
+		{
+			alert('There is no input for Code. Please enter a code');
+			return false;
+		}
+		else if(val != parseInt(val,10))
+		{
+			alert("The entry is not number.  Please enter a valid code of 1-99.");
+			return false;
+		}
+		else if (val > 99 || val < 1)
+		{
+			alert("The entry is not between 1 and 99");
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+    }
+   
